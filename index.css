@@ -1,0 +1,213 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+  background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url('chad-montano-eeqbbemH9-c-unsplash.jpg');
+  background-repeat: no-repeat;        
+  background-size: cover;             
+  background-position: center center;  
+  background-attachment: fixed;
+  font-size: 1.9rem;
+  font-family: Roboto;
+}    
+
+.main-container {
+    background-color: transparent;
+    position: relative;
+    color: white;
+    margin: 4.0rem ;
+    min-width: 90%;
+    display: inline-block; 
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.logo img{
+    min-width: 10rem;
+    max-width: 15rem;
+    border-radius: 25px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+.nav-content a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero1-text {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    gap: 1.5rem;
+    max-width: 25rem;
+    text-wrap: wrap;
+    padding: 1rem;
+}
+
+.hero2-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 25rem;
+    text-wrap: wrap;
+    padding: 1rem;
+}
+
+.hero-button {
+    background-color: rgb(255, 255, 0);
+    align-self: flex-start;
+    padding: 0.8rem 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+.hero-button:hover {
+    background-color: rgb(146, 146, 64);
+
+}
+
+.pan-price {
+    display: inline;
+    position: absolute;
+    left: 31rem;
+}
+
+.product-box {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.product {
+    margin-top: 3rem;
+    background: linear-gradient(45deg, rgb(36, 34, 34), black);
+    padding: 2rem 2.5rem;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 2fr 0.5fr 0.5fr;
+    gap: 0.5rem;
+    word-wrap: break-word;
+    cursor: pointer;
+    align-items: center;
+    justify-items: center;
+    max-width: 15rem;
+}
+
+.dinner-box {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dinner-time {
+    display: flex;
+    flex-grow: 0.8 1;
+    flex-shrink: 1 0.8;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.dinner-text {
+    min-width: 15rem;
+} 
+
+.dinner-box img {
+    margin-top: 1.5rem;
+    min-width: 10rem;
+    max-width: 60rem;
+    border-radius: 25px;
+    transition: 2s ease-out;
+}
+
+.dinner-box img:hover {
+    border-radius: 5px;
+}
+
+.dinner-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.5 1;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.dinner-container img {
+    margin-top: 1.5rem;
+    min-width: 20rem;
+    max-width: 60rem;
+    border-radius: 25px;
+    transition: 2s ease-out;
+}
+
+.dinner-container img:hover {
+    border-radius: 5px;
+}
+
+.final-statement {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-contact {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.phone-contact img {
+    color: white;
+}
+
+.email-contact {
+    display: flex;
+    gap: 2rem;
+}
+
+.email-contact img {
+    color: white;
+}
