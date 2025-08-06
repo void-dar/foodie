@@ -153,6 +153,7 @@ nav {
 .dinner-box img {
     margin-top: 1.5rem;
     min-width: 0;
+    width: 40rem;
     max-width: 60rem;
     border-radius: 25px;
     transition: 2s ease-out;
@@ -211,3 +212,4 @@ nav {
 .email-contact img {
     color: white;
 }
+
